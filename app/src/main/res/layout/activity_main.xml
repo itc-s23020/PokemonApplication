@@ -1,0 +1,31 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/pokemon1_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ポケモン1の名前" />
+
+    <EditText
+        android:id="@+id/pokemon2_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ポケモン2の名前" />
+
+    <Button
+        android:id="@+id/compare_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="比較" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+</LinearLayout>
